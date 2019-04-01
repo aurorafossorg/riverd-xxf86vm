@@ -13,10 +13,17 @@
 	"dependencies": {
 		"riverd-x11": "~>0.1.1"
 	},
-	"subConfigurations": {
-		"riverd-x11": "types-import"
-	},
 	"configurations": [
+		{
+			"name": "types-import",
+			"targetType": "sourceLibrary",
+			"excludedSourceFiles": [
+				"source/riverd/xxf86vm/dynfun.d",
+				"source/riverd/xxf86vm/dynload.d",
+				"source/riverd/xxf86vm/package.d",
+				"source/riverd/xxf86vm/statfun.d"
+			]
+		},
 		{
 			"name": "static",
 			"versions": ["RiverD_Xxf86vm_Static"],
