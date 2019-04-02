@@ -35,7 +35,7 @@ directly send an email to: contact (at) aurorafoss.org .
 
 module riverd.xxf86vm.dynload;
 
-import riverd.loader;
+public import riverd.loader;
 
 public import riverd.xxf86vm.dynfun;
 

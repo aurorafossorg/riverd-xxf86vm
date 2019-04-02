@@ -35,6 +35,8 @@ directly send an email to: contact (at) aurorafoss.org .
 
 module riverd.xxf86vm;
 
+public import riverd.xxf86vm.types;
+
 version(RiverD_Xxf86vm_Static) {
 	public import riverd.xxf86vm.statfun;
 } else {
