@@ -1,2 +1,6 @@
 v1.0.0
 - First Release
+
+v1.0.1
+- Remove subConfigurations in dub.json due to update in riverd-x11
+- Add public imports
