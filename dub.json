@@ -11,7 +11,7 @@
 	"importPaths": ["source"],
 	"sourcePaths": ["source"],
 	"dependencies": {
-		"riverd-x11": "~>0.1.1"
+		"riverd-x11": "~>0.1.2"
 	},
 	"configurations": [
 		{
